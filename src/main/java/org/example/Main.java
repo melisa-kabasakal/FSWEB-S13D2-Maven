@@ -24,13 +24,6 @@ public class Main {
             backWards = (backWards * 10) + lastNumbers;
             numbersTwo /= 10;
         }
-
-        numbersTwo = backWards;
-
-        while (numbersTwo > 0) {
-            int lastNumbers = numbersTwo % 10;
-            numbersTwo /= 10;
-        }
         return numbersOrgin == backWards;
     }
 
